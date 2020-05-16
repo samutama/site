@@ -23,6 +23,12 @@
         >
           GitHub
         </a>
+        <nuxt-link
+          to="/movie"
+          class="button--navy"
+        >
+          動画ローディングサンプル
+        </nuxt-link>
       </div>
     </div>
   </div>
