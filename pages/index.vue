@@ -9,11 +9,7 @@
         samutama site project
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
+        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
           Documentation
         </a>
         <a
@@ -23,10 +19,7 @@
         >
           GitHub
         </a>
-        <nuxt-link
-          to="/movie"
-          class="button--navy"
-        >
+        <nuxt-link to="/movie" class="button--navy">
           動画ローディングサンプル
         </nuxt-link>
       </div>
@@ -35,13 +28,13 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from "~/components/Logo.vue";
 
 export default {
   components: {
     Logo
   }
-}
+};
 </script>
 
 <style>
@@ -55,8 +48,8 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
