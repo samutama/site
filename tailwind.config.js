@@ -15,6 +15,7 @@ module.exports = {
     }),
     fontFamily: {
       'raleway': ['Raleway', 'sans-serif'],
+      'libreBaskerville': ['Libre Baskerville', 'sans-serif'],
     },
   },
   variants: {

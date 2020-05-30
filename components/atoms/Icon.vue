@@ -24,6 +24,69 @@
       />
     </g>
   </svg>
+  <svg
+    v-else-if="name === 'copyright'"
+    xmlns="http://www.w3.org/2000/svg"
+    width="223"
+    height="11"
+    viewBox="0 0 223 11"
+  >
+    <text
+      transform="translate(0 8)"
+      fill="#fff"
+      font-size="8"
+      font-family="LibreBaskerville-Regular, Libre Baskerville"
+    >
+      <tspan x="0" y="0">
+        Copyright © since 2020 cochumo All Rights Reserved.
+      </tspan>
+    </text>
+  </svg>
+  <svg
+    v-else-if="name === 'more'"
+    xmlns="http://www.w3.org/2000/svg"
+    width="90"
+    height="18"
+    viewBox="0 0 90 18"
+  >
+    <g transform="translate(-20 -75)">
+      <path
+        d="M0,0,.064,7.84H7.84"
+        transform="translate(102.356 90.215) rotate(-135)"
+        fill="none"
+        stroke="#fff"
+        stroke-linecap="square"
+        stroke-width="1"
+      />
+      <text
+        transform="translate(31 86)"
+        fill="#fff"
+        font-size="12"
+        font-family="Raleway-Regular, Raleway"
+      >
+        <tspan x="0" y="0">more</tspan>
+      </text>
+      <path
+        d="M7.84,62.949H.064L0,55.109"
+        transform="translate(59.468 129.183) rotate(-135)"
+        fill="none"
+        stroke="#fff"
+        stroke-linecap="square"
+        stroke-width="1"
+      />
+      <g transform="translate(20 76)">
+        <rect width="90" height="17" fill="none" />
+      </g>
+      <line
+        x1="76.95"
+        y2="0.07"
+        transform="translate(21.5 90.43)"
+        fill="none"
+        stroke="#fff"
+        stroke-width="1"
+      />
+    </g>
+  </svg>
 </template>
 
 <script>
@@ -32,8 +95,8 @@ export default {
     name: {
       type: String,
       required: true,
-      default: null,
-    },
-  },
-}
+      default: null
+    }
+  }
+};
 </script>

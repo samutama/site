@@ -11,15 +11,22 @@
         :src="src"
       >
     </div>
+    <Icon
+      name="more"
+      class="mt-3 mx-2"
+      :class="type === 'left' ? 'ml-auto' : 'mr-auto'"
+    />
   </section>
 </template>
 
 <script>
 import ContentsTitle from "~/components/atoms/ContentsTitle.vue";
+import Icon from "~/components/atoms/Icon.vue";
 
 export default {
   components: {
     ContentsTitle,
+    Icon,
   },
   props: {
     type: {

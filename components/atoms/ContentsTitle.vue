@@ -6,7 +6,7 @@
   >
     <div
       class="pt-3 pb-1"
-      :class="[type === 'left' ? 'pr-8 pl-4' : 'pr-4 pl-8']"
+      :class="type === 'left' ? 'pr-8 pl-4' : 'pr-4 pl-8'"
     >
       <h2 class="text-2xl font-black">
         {{ textJp }}
