@@ -17,6 +17,12 @@ module.exports = {
       'raleway': ['Raleway', 'sans-serif'],
       'libreBaskerville': ['Libre Baskerville', 'sans-serif'],
     },
+    width: {
+      '19/40': '47.5%'
+    },
+    textColor: {
+      'yellow': '#DDA005',
+    }
   },
   variants: {
     margin: ['responsive', 'last', 'hover', 'focus'],

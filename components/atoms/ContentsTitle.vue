@@ -17,6 +17,23 @@
     </div>
     <hr class="pb-2 border-yellow">
   </div>
+  <div
+    v-else-if="type === 'full'"
+    class="flex flex-col bg-khaki relative overflow-hidden z-10 text-left"
+    :class="'hinomaru-' + type"
+  >
+    <div
+      class="pt-3 pb-2 pr-8 pl-4"
+    >
+      <h1 class="text-2xl font-black">
+        {{ textJp }}
+      </h1>
+      <span class="text-base font-raleway">
+        {{ textEn }}
+      </span>
+    </div>
+    <hr class="pb-2 border-yellow">
+  </div>
 </template>
 
 <script>
@@ -66,5 +83,20 @@ export default {
   top: 50%;
   left: -5%;
   opacity: .5;
+}
+
+.hinomaru-full::after {
+  position: absolute;
+  content: '';
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #E92E3D;
+  border: solid 2px #fff;
+  top: 0;
+  bottom: 0;
+  right: -5%;
+  opacity: .5;
+  margin: auto;
 }
 </style>
