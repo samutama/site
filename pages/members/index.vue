@@ -8,10 +8,11 @@
     >
       <div class="flex justify-between flex-wrap">
         <member-link
-          v-for="(members, index) in members"
+          v-for="(member, index) in members"
           v-bind:key="index"
-          :num="members.num"
-          :name="members.name"
+          :id="member.id"
+          :num="member.num"
+          :name="member.name"
         />
       </div>
     </contents-layout>

@@ -2,7 +2,7 @@
   <div class="container">
     <top-mv />
     <top-about />
-    <div class="mt-32">
+    <div class="mt-32 pb-12">
       <top-section
         type="left"
         textJp="部員"

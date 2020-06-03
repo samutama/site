@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-black text-white pt-32 pb-4">
+  <footer class="bg-black text-white pt-12 pb-4">
     <Icon
       name="copyright"
       class="m-auto"

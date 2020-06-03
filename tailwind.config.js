@@ -18,7 +18,8 @@ module.exports = {
       'libreBaskerville': ['Libre Baskerville', 'sans-serif'],
     },
     width: {
-      '19/40': '47.5%'
+      '19/40': '47.5%',
+      'full': '100%'
     },
     textColor: {
       'yellow': '#DDA005',

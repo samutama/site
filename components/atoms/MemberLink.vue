@@ -1,6 +1,6 @@
 <template>
   <nuxt-link
-    :to="'members/' + name"
+    :to="'members/' + id"
     class="block w-19/40 mb-5"
   >
     <div
@@ -16,6 +16,11 @@
 <script>
 export default {
   props: {
+    id: {
+      type: Number,
+      required: true,
+      default: null,
+    },
     num: {
       type: String,
       required: true,
