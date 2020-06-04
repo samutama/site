@@ -11,6 +11,7 @@
         :psn_id="members[id].psn_id"
         :file="members[id].file"
         :contents="members[id].contents"
+        :length="members.length"
       />
     </contents-layout>
   </div>

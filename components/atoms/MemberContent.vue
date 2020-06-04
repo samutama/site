@@ -1,5 +1,9 @@
 <template>
-  <div class="bg-khaki rounded-lg pt-4 px-4 pb-6">
+  <div
+    class="bg-khaki rounded-lg pt-4 px-4 pb-6"
+    v-touch:swipe.left="swipeLeft"
+    v-touch:swipe.right="swipeRight"
+  >
     <h2 class="font-libreBaskerville text-lg font-black text-yellow flex mb-4">
       <span class="font-raleway text-2xl leading-none">
         #{{ num }}
@@ -57,6 +61,39 @@ export default {
       required: false,
       default: null,
     },
+    length: {
+      type: Number,
+      required: true,
+      default: null,
+    },
+  },
+  methods: {
+    swipeLeft() {
+      console.log('swipeLeft')
+      
+      if (this.$route.params.id !== 1) {
+        this.$router.push({params: { id: this.$route.params.id-- }})
+        this.$router.push({params: { id: this.$route.params.id-- }})
+      } else {
+        this.goLast()
+      }
+    },
+    swipeRight() {
+      console.log('swipeRight')
+
+      if (this.$route.params.id !== this.length) {
+        this.$router.push({params: { id: this.$route.params.id++ }})
+        this.$router.push({params: { id: this.$route.params.id++ }})
+      } else {
+        this.goFirst()
+      }
+    },
+    goFirst() {
+      this.$router.push({params: { id: 1 }})
+    },
+    goLast() {
+      this.$router.push({params: { id: this.length }})
+    }
   }
 }
 </script>

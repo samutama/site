@@ -28,11 +28,14 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    // Doc: https://github.com/jerrybendy/vue-touch-events
+    { src: "~/plugins/vue2-touch-events.js" }
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    // Doc: https://github.com/nuxt-community/tailwindcss-module
     '@nuxtjs/tailwindcss',
   ],
   /*
@@ -43,6 +46,8 @@ export default {
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    // Doc: https://github.com/fukuiretu/nuxt-user-agent
+    'nuxt-user-agent',
   ],
   /*
   ** Axios module configuration
