@@ -69,17 +69,13 @@ export default {
   },
   methods: {
     swipeLeft() {
-      console.log('swipeLeft')
-      
-      if (this.$route.params.id !== 1) {
+      if (Number(this.$route.params.id) !== 1) {
         this.$router.push({params: { id: --this.$route.params.id }})
       } else {
         this.goLast()
       }
     },
     swipeRight() {
-      console.log('swipeRight')
-
       if (this.$route.params.id !== this.length) {
         this.$router.push({params: { id: ++this.$route.params.id }})
       } else {
