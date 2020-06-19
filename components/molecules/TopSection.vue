@@ -5,7 +5,7 @@
       :textJp="textJp"
       :textEn="textEn"
     />
-    <nuxt-link to="members">
+    <nuxt-link :to="link">
       <div class="-mt-5 overflow-hidden">
         <img
           class="img-zoom"
@@ -47,6 +47,11 @@ export default {
       default: null,
     },
     src: {
+      type: String,
+      required: true,
+      default: null,
+    },
+    link: {
       type: String,
       required: true,
       default: null,

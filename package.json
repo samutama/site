@@ -13,8 +13,10 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.10.3",
     "@nuxtjs/dotenv": "^1.4.0",
+    "apexcharts": "^3.19.2",
     "nuxt": "^2.0.0",
     "nuxt-user-agent": "^1.2.2",
+    "vue-apexcharts": "^1.5.3",
     "vue2-touch-events": "^2.2.1"
   },
   "devDependencies": {

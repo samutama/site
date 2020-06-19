@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      members: members
+      members: members,
     }
   }
 }

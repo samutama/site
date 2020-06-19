@@ -29,7 +29,9 @@ export default {
   */
   plugins: [
     // Doc: https://github.com/jerrybendy/vue-touch-events
-    { src: "~/plugins/vue2-touch-events.js" }
+    { src: "~/plugins/vue2-touch-events.js" },
+    // Doc: https://github.com/apexcharts/vue-apexcharts
+    { src : '~/plugins/vue-apexchart.js', ssr : false }
   ],
   /*
   ** Nuxt.js dev-modules

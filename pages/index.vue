@@ -8,24 +8,28 @@
         textJp="部員"
         textEn="Members"
         src="/members.jpg"
+        link="members"
       />
       <top-section
         type="right"
         textJp="セッティング"
         textEn="Setting"
         src="/setting.jpg"
+        link="setting"
       />
       <top-section
         type="left"
         textJp="展示"
         textEn="Gallery"
         src="/gallery.jpg"
+        link="gallery"
       />
       <top-section
         type="right"
         textJp="問い合わせ"
         textEn="Contact"
         src="/contact.jpg"
+        link="contact"
       />
     </div>
   </div>
