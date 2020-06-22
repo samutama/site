@@ -16,6 +16,7 @@ module.exports = {
     fontFamily: {
       'raleway': ['Raleway', 'sans-serif'],
       'libreBaskerville': ['Libre Baskerville', 'sans-serif'],
+      'helvetica': ['Helvetica', 'Arial', 'sans-serif'],
     },
     width: {
       '19/40': '47.5%',

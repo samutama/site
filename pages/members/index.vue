@@ -22,7 +22,7 @@
 <script>
 import ContentsLayout from "~/components/template/ContentsLayout.vue";
 import MemberLink from "~/components/atoms/MemberLink.vue";
-import members from "@/assets/json/members.json";
+import Members from "@/assets/json/members.json";
 
 export default {
   components: {
@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      members: members,
+      members: Members,
     }
   }
 }

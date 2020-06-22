@@ -17,12 +17,10 @@
 
 <script>
 import ContentsLayout from "~/components/template/ContentsLayout.vue";
-import members from "@/assets/json/members.json";
 
 export default {
   components: {
     ContentsLayout,
-
   },
   data() {
     return {
