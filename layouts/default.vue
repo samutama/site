@@ -81,4 +81,9 @@ html {
   color: #fff;
   background-color: #000080;
 }
+
+/* copyright入ってるから暫定でzoom */
+.img-zoom {
+  transform: scale(1.2);
+}
 </style>

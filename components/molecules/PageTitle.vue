@@ -46,10 +46,3 @@ export default {
   }
 }
 </script>
-
-<style>
-/* copyright入ってるから暫定でzoom */
-.img-zoom {
-  transform: scale(1.2);
-}
-</style>
