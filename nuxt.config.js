@@ -39,6 +39,7 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/tailwindcss-module
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/vuetify',
   ],
   /*
   ** Nuxt.js modules
@@ -65,6 +66,11 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
+    }
+  },
+  vuetify: {
+    theme: {
+      dark: true,
     }
   }
 }
