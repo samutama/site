@@ -14,20 +14,10 @@
                 <v-row>
                   <v-col cols="12" md="4">
                     <v-text-field
-                      v-model="firstname"
+                      v-model="name"
                       :rules="nameRules"
                       :counter="10"
-                      label="First name"
-                      required
-                    ></v-text-field>
-                  </v-col>
-
-                  <v-col cols="12" md="4">
-                    <v-text-field
-                      v-model="lastname"
-                      :rules="nameRules"
-                      :counter="10"
-                      label="Last name"
+                      label="お名前"
                       required
                     ></v-text-field>
                   </v-col>
@@ -36,10 +26,24 @@
                     <v-text-field
                       v-model="email"
                       :rules="emailRules"
-                      label="E-mail"
+                      label="メールアドレス"
                       required
                     ></v-text-field>
                   </v-col>
+
+                  <v-col cols="12" md="4">
+                    <v-textarea
+                      name="message"
+                      label="問い合わせ内容"
+                      value=""
+                      required
+                    ></v-textarea>
+                  </v-col>
+
+                  <v-col cols="12" md="4">
+                    <v-btn @click="submit">送信</v-btn>
+                  </v-col>
+
                 </v-row>
               </v-container>
             </v-form>
@@ -62,3 +66,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.v-application--wrap {
+  min-height: 0;
+}
+</style>

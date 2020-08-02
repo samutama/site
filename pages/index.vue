@@ -52,10 +52,11 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   text-align: center;
   font-family : YuMincho, 'Yu Mincho', serif;
   background-color: #000;
   color: #fff;
+  padding: 0;
 }
 </style>
