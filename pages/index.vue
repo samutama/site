@@ -26,7 +26,7 @@
       />
       <top-section
         type="right"
-        textJp="問い合わせ"
+        textJp="お問い合わせ"
         textEn="Contact"
         src="/contact.jpg"
         link="contact"
