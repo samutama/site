@@ -5,10 +5,13 @@
     v-touch:swipe.right="swipeRight"
   >
     <h2 class="font-libreBaskerville text-lg font-black text-yellow flex mb-4">
-      <span class="font-raleway text-2xl leading-none">
+      <!-- <span class="font-raleway text-2xl leading-none">
         #{{ num }}
-      </span>
+      </span> -->
       <span class="w-full">
+        <span class="font-raleway text-2xl leading-none -ml-2 mr-2">
+          #{{ num }}
+        </span>
         {{ psn_id }}
       </span>
     </h2>
