@@ -1,8 +1,22 @@
 <template>
   <div>
+    <Header />
     <nuxt />
+    <Footer />
   </div>
 </template>
+
+<script>
+import Header from "~/components/organisms/Header.vue";
+import Footer from "~/components/organisms/Footer.vue";
+
+export default {
+  components: {
+    Header,
+    Footer
+  },
+};
+</script>
 
 <style>
 html {
@@ -15,6 +29,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: #000;
 }
 
 *,
@@ -66,5 +81,10 @@ html {
 .button--navy:hover {
   color: #fff;
   background-color: #000080;
+}
+
+/* copyright入ってるから暫定でzoom */
+.img-zoom {
+  transform: scale(1.2);
 }
 </style>

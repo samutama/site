@@ -6,8 +6,11 @@
       <div class="tetromino box3"></div>
       <div class="tetromino box4"></div>
     </div>
-    <div class="movie-box" :class="{ hide: isLoading, fadein: !isLoading }">
-      <video ref="video" src="/drift.mp4" controls autoplay></video>
+    <div
+      class="movie-box"
+      :class="{ hide: isLoading, fadein: !isLoading }"
+    >
+      <video ref="video" src="/drift.mp4" controls></video>
     </div>
   </div>
 </template>

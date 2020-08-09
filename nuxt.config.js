@@ -12,7 +12,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;700&display=swap' }
     ]
   },
   /*
@@ -28,11 +28,18 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    // Doc: https://github.com/jerrybendy/vue-touch-events
+    { src: "~/plugins/vue2-touch-events.js" },
+    // Doc: https://github.com/apexcharts/vue-apexcharts
+    { src : '~/plugins/vue-apexchart.js', ssr : false }
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    // Doc: https://github.com/nuxt-community/tailwindcss-module
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/vuetify',
   ],
   /*
   ** Nuxt.js modules
@@ -42,6 +49,8 @@ export default {
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    // Doc: https://github.com/fukuiretu/nuxt-user-agent
+    'nuxt-user-agent',
   ],
   /*
   ** Axios module configuration
@@ -57,6 +66,11 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
+    }
+  },
+  vuetify: {
+    theme: {
+      dark: true,
     }
   }
 }
