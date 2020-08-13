@@ -72,5 +72,32 @@ export default {
     theme: {
       dark: true,
     }
+  },
+  generate: {
+    routes: [
+      '/members/1',
+      '/members/2',
+      '/members/3',
+      '/members/4',
+      '/members/5',
+      '/members/6',
+      '/members/7',
+      '/members/8',
+      '/members/9',
+      '/members/10',
+      '/members/11',
+      '/members/12',
+      '/members/13',
+      '/members/14',
+      '/members/15',
+      '/members/16',
+      '/members/17',
+      '/members/18',
+      '/members/19',
+      '/members/20',
+      '/members/21',
+      '/members/22',
+      '/members/23',
+    ]
   }
 }
