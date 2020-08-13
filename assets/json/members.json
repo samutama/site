@@ -11,7 +11,8 @@
         "contents": {
             "呼び名": "まさみ まちゃみ 団長",
             "生年月日": "1972/10/28",
-            "出身": "長野県"
+            "出身": "長野県",
+            "ポジション": "リーダー"
         }
     },
     {
@@ -24,8 +25,7 @@
             "src" : "/members_mv/tk_mv.jpg"
         },
         "contents": {
-            "呼び名": "TK",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "TK"
         }
     },
     {
@@ -38,8 +38,7 @@
             "src" : "/members_mv/ikupio_mv.jpg"
         },
         "contents": {
-            "呼び名": "いくぴお",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "いくぴお"
         }
     },
     {
@@ -48,8 +47,7 @@
         "name": "srctom",
         "psn_id": "srctom-SMRI04",
         "contents": {
-            "呼び名": "さくとむ",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "さくとむ"
         }
     },
     {
@@ -63,7 +61,6 @@
         },
         "contents": {
             "呼び名": "もず もずたまぁ もずりんたまぁ",
-            "生年月日": "xxxx/xx/xx",
             "出身": "福岡県"
         }
     },
@@ -73,8 +70,7 @@
         "name": "taka",
         "psn_id": "taka_SMRI_07",
         "contents": {
-            "呼び名": "タカ",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "タカ"
         }
     },
     {
@@ -83,8 +79,7 @@
         "name": "shian",
         "psn_id": "shian-SMRI08",
         "contents": {
-            "呼び名": "しあんちゃん",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "しあんちゃん"
         }
     },
     {
@@ -98,7 +93,6 @@
         },
         "contents": {
             "呼び名": "なご なごどむ",
-            "生年月日": "xxxx/xx/xx",
             "出身": "北海道"
         }
     },
@@ -108,8 +102,7 @@
         "name": "ykr",
         "psn_id": "ykr060",
         "contents": {
-            "呼び名": "YKR",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "YKR"
         }
     },
     {
@@ -122,8 +115,7 @@
             "src" : "/members_mv/sui_mv.jpg"
         },
         "contents": {
-            "呼び名": "すい 粋",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "すい 粋"
         }
     },
     {
@@ -137,7 +129,6 @@
         },
         "contents": {
             "呼び名": "DJ ディージェー",
-            "生年月日": "xxxx/xx/xx",
             "出身": "フランス"
         }
     },
@@ -152,7 +143,6 @@
         },
         "contents": {
             "呼び名": "sant サント",
-            "生年月日": "xxxx/xx/xx",
             "出身": "フランス"
         }
     },
@@ -162,8 +152,7 @@
         "name": "lucky",
         "psn_id": "lucky-16_SMRI",
         "contents": {
-            "呼び名": "ラッキー",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "ラッキー"
         }
     },
     {
@@ -172,8 +161,7 @@
         "name": "tatchan",
         "psn_id": "Tatchan1110",
         "contents": {
-            "呼び名": "たっちゃん",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "たっちゃん"
         }
     },
     {
@@ -198,7 +186,6 @@
         "psn_id": "SM_RIsy-q_",
         "contents": {
             "呼び名": "しょーと",
-            "生年月日": "xxxx/xx/xx",
             "出身": "北海道"
         }
     },
@@ -208,8 +195,7 @@
         "name": "ami",
         "psn_id": "RicakAm_SMRI22",
         "contents": {
-            "呼び名": "あみちゃん",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "あみちゃん"
         }
     },
     {
@@ -218,8 +204,7 @@
         "name": "milledy",
         "psn_id": "Milledy-SMRI23",
         "contents": {
-            "呼び名": "ミレディー",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "ミレディー"
         }
     },
     {
@@ -229,7 +214,6 @@
         "psn_id": "Shinotch3",
         "contents": {
             "呼び名": "しのっち",
-            "生年月日": "1994/xx/xx",
             "出身": "北海道",
             "ひと言": "Do you like SUSHI??"
         }
@@ -240,8 +224,7 @@
         "name": "satoshi",
         "psn_id": "satoshi00_SMRI25",
         "contents": {
-            "呼び名": "さとし",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "さとし"
         }
     },
     {
@@ -261,8 +244,7 @@
         "name": "houou",
         "psn_id": "H-0u0-U_SMRI27",
         "contents": {
-            "呼び名": "鳳凰",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "鳳凰"
         }
     },
     {
@@ -271,8 +253,7 @@
         "name": "marrbo",
         "psn_id": "marrbo_SMRI28",
         "contents": {
-            "呼び名": "まぼ まぼたまぁ まぼりんたまぁ",
-            "生年月日": "xxxx/xx/xx"
+            "呼び名": "まぼ まぼたまぁ まぼりんたまぁ"
         }
     }
 ]
