@@ -1,8 +1,9 @@
 <template>
-  <div
+  <nuxt-link
     v-if="type === 'left' || type === 'right'"
     class="flex flex-col bg-khaki relative overflow-hidden z-10"
     :class="['text-' + type, 'hinomaru-' + type, type === 'left' ? 'mr-auto' : 'ml-auto']"
+    :to="link"
   >
     <div
       class="pt-3 pb-1"
@@ -16,7 +17,7 @@
       </span>
     </div>
     <hr class="pb-2 border-yellow">
-  </div>
+  </nuxt-link>
   <div
     v-else-if="type === 'full'"
     class="flex flex-col bg-khaki relative overflow-hidden z-10 text-left"
@@ -50,6 +51,11 @@ export default {
       default: null,
     },
     textEn: {
+      type: String,
+      required: true,
+      default: null,
+    },
+    link: {
       type: String,
       required: true,
       default: null,
