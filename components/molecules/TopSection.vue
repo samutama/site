@@ -4,6 +4,7 @@
       :type="type"
       :textJp="textJp"
       :textEn="textEn"
+      :link="link"
     />
     <nuxt-link :to="link">
       <div class="-mt-5 overflow-hidden">
