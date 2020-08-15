@@ -41,6 +41,12 @@ export default {
         // 横幅のほうが大きくなってしまう場合にだけ反応するようにしています。
         this.$refs.mvVideo.style.left = -windowMovieSizeWidthLeftMargin + "px";
       }
+    },
+    // 親からインプット要素をフォーカスするために使われる
+    focus: function () {
+      return this.$refs.mvVideo
+      // console.log(this.$refs.mvVideo);
+      
     }
   },
   mounted() {
