@@ -75,7 +75,7 @@ export default {
   font-family : YuMincho, 'Yu Mincho', serif;
   background-color: #000;
   color: #fff;
-  padding: 0;
+  padding: 0!important;
 }
 
 
