@@ -32,10 +32,10 @@ export default {
       var windowSizeWidth = window.outerWidth;
 
       // メディアの縦横比に合わせて数値は変更して下さい。(メディアのサイズが width < heightの場合で書いています。逆の場合は演算子を逆にしてください。)
-      var windowMovieSizeWidth = windowSizeHeight * 1.77777778;
-      var windowMovieSizeHeight = windowSizeWidth / 1.77777778;
+      var windowMovieSizeWidth = windowSizeHeight * 1.777;
+      var windowMovieSizeHeight = windowSizeWidth / 1.777;
       var windowMovieSizeWidthLeftMargin =
-        (windowMovieSizeWidth - windowSizeWidth) / 2;
+        (windowMovieSizeWidth - windowSizeWidth) / 1.5;
 
       if (windowMovieSizeHeight < windowSizeHeight) {
         // 横幅のほうが大きくなってしまう場合にだけ反応するようにしています。
@@ -84,7 +84,7 @@ export default {
   width: auto;
   height: 100vh;
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: 140vh;
   max-width: none;
 }
 
