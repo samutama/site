@@ -1,10 +1,12 @@
 <template>
   <div class="container">
-    <div class="tetrominos" :class="{ fadeout: !isLoading }">
-      <div class="tetromino box1"></div>
-      <div class="tetromino box2"></div>
-      <div class="tetromino box3"></div>
-      <div class="tetromino box4"></div>
+    <div v-show="isLoading" class="tetrominosOverlay" :class="{ fadeout: !isLoading }">
+      <div class="tetrominos" :class="{ fadeout: !isLoading }">
+        <div class="tetromino box1"></div>
+        <div class="tetromino box2"></div>
+        <div class="tetromino box3"></div>
+        <div class="tetromino box4"></div>
+      </div>
     </div>
     <div :class="{ hide: isLoading, fadein: !isLoading }">
       <top-mv ref="mv" />
@@ -84,6 +86,14 @@ $h: 112px;
 $xspace: $w/2;
 $yspace: $h/4 - 1;
 $speed: 1.5s;
+
+.tetrominosOverlay {
+  position: fixed;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
 
 .tetrominos {
   position: absolute;
