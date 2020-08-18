@@ -12,7 +12,10 @@
       <h2 class="text-2xl font-black">
         {{ textJp }}
       </h2>
-      <span class="text-base font-raleway">
+      <span
+        class="text-base font-raleway block"
+        :class="type === 'left' ? 'text-left' : 'text-right'"
+      >
         {{ textEn }}
       </span>
     </div>
