@@ -6,6 +6,7 @@
         loop
         muted
         playsinline
+        preload="auto"
         ref="mvVideo"
         class="mv__video"
         src="/samutama_mv.mp4"
