@@ -9,7 +9,7 @@
       </div>
     </div>
     <div :class="{ hide: isLoading, fadein: !isLoading }">
-      <top-mv ref="mv" />
+      <!-- <top-mv ref="mv" /> -->
       <top-about />
       <div class="mt-32 pb-12">
         <top-section
