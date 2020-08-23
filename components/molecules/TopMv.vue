@@ -9,7 +9,7 @@
         preload="auto"
         ref="mvVideo"
         class="mv__video"
-        src="/samurai_bg_video.mp4"
+        src="/gts_a1.mp4"
       ></video>
     </div>
     <div class="mv__ttlWrap">
