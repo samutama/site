@@ -62,7 +62,7 @@ export default {
     };
   },
   mounted() {
-    document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("load", () => {
       this.isLoading = false;
     });
   }
