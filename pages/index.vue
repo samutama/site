@@ -62,7 +62,7 @@ export default {
     };
   },
   mounted() {
-    this.$refs.mv.focus().addEventListener("loadeddata", () => {
+    document.addEventListener("DOMContentLoaded", () => {
       this.isLoading = false;
     });
   }
