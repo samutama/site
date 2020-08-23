@@ -69,6 +69,11 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
+      const vueLoader = config.module.rules.find((loader) => loader.loader === 'vue-loader')
+      vueLoader.options.transformToRequire = {
+        video: 'src',
+        source: 'src'
+      }
     }
   },
   vuetify: {
