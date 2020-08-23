@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <main class="mainContainer">
     <div v-show="isLoading" class="tetrominosOverlay" :class="{ fadeout: !isLoading }">
       <div class="tetrominos" :class="{ fadeout: !isLoading }">
         <div class="tetromino box1"></div>
@@ -42,7 +42,7 @@
         />
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -70,7 +70,7 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
+.mainContainer {
   margin: 0 auto;
   /* min-height: 100vh; */
   text-align: center;
