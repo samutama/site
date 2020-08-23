@@ -62,7 +62,11 @@ export default {
     };
   },
   mounted() {
-    document.addEventListener("load", () => {
+    // document.addEventListener("load", () => {
+    //   this.isLoading = false;
+    // });
+    window.addEventListener('load', (event) => {
+      console.log('ページが完全に読み込まれました');
       this.isLoading = false;
     });
   }
