@@ -411,9 +411,11 @@ module.exports = {
     },
     // textColor: theme => theme({
     //   ...theme('colors'),
+    //   'yellow': '#DDA005',
     // }),
     textColor: {
       'yellow': '#DDA005',
+      'white': '#FFF',
     },
     textOpacity: theme => theme('opacity'),
     width: theme => ({

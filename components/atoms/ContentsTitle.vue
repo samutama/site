@@ -13,7 +13,7 @@
         {{ textJp }}
       </h2>
       <span
-        class="text-base font-raleway block"
+        class="text-base font-raleway text-white block"
         :class="type === 'left' ? 'text-left' : 'text-right'"
       >
         {{ textEn }}
@@ -32,7 +32,7 @@
       <h1 class="text-2xl font-black text-white">
         {{ textJp }}
       </h1>
-      <span class="text-base font-raleway">
+      <span class="text-base font-raleway text-white ">
         {{ textEn }}
       </span>
     </div>
@@ -60,7 +60,7 @@ export default {
     },
     link: {
       type: String,
-      required: true,
+      required: false,
       default: null,
     },
   }
