@@ -9,7 +9,7 @@
       class="pt-3 pb-1"
       :class="type === 'left' ? 'pr-8 pl-4' : 'pr-4 pl-8'"
     >
-      <h2 class="text-2xl font-black">
+      <h2 class="text-2xl font-black text-white">
         {{ textJp }}
       </h2>
       <span
@@ -29,7 +29,7 @@
     <div
       class="pt-3 pb-2 pr-8 pl-4"
     >
-      <h1 class="text-2xl font-black">
+      <h1 class="text-2xl font-black text-white">
         {{ textJp }}
       </h1>
       <span class="text-base font-raleway">
