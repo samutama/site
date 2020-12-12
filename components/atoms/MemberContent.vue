@@ -15,7 +15,7 @@
         {{ psn_id }}
       </span>
     </h2>
-    <div>
+    <div class="text-white">
       <div
         v-if="file !== null"
       >

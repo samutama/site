@@ -49,7 +49,7 @@
                     ></v-textarea>
                   </v-col>
 
-                  <v-col cols="12" md="4">
+                  <v-col cols="12" md="4" class="text-center">
                     <v-btn 
                       type="submit"
                       :class="valid ? '' :'pointer-events-none'"

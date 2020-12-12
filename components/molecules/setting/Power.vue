@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center flex-wrap bg-khaki rounded-lg pt-4 pb-4">
+  <div class="flex justify-center flex-wrap bg-khaki rounded-lg pt-4 pb-4 text-white">
     <h2 class="pb-4 px-4 w-full text-left font-helvetica font-black">パワー率</h2>
     <div>
       <apexchart type="radialBar" :options="chartOptions" :series="series"></apexchart>
