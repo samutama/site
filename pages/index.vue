@@ -1,14 +1,14 @@
 <template>
   <main class="mainContainer">
-    <div v-show="isLoading" class="tetrominosOverlay" :class="{ fadeout: !isLoading }">
+    <!-- <div v-show="isLoading" class="tetrominosOverlay" :class="{ fadeout: !isLoading }">
       <div class="tetrominos" :class="{ fadeout: !isLoading }">
         <div class="tetromino box1"></div>
         <div class="tetromino box2"></div>
         <div class="tetromino box3"></div>
         <div class="tetromino box4"></div>
       </div>
-    </div>
-    <div :class="{ hide: isLoading, fadein: !isLoading }">
+    </div> -->
+    <div>
       <!-- <top-mv ref="mv" /> -->
       <top-mv-static />
       <top-about />
@@ -61,17 +61,17 @@ export default {
   },
   data() {
     return {
-      isLoading: true
+      // isLoading: true
     };
   },
   mounted() {
     // document.addEventListener("load", () => {
     //   this.isLoading = false;
     // });
-    window.addEventListener('load', (event) => {
-      console.log('ページが完全に読み込まれました');
-      this.isLoading = false;
-    });
+    // window.addEventListener('load', (event) => {
+    //   console.log('ページが完全に読み込まれました');
+    //   this.isLoading = false;
+    // });
   }
 };
 </script>
