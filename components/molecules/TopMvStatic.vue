@@ -23,12 +23,13 @@ export default {
   position: relative;
   &__imgWrap {
     height: 100vh;
+    overflow: hidden;
   }
   &__img {
     height: 100%;
     object-fit: cover;
   }
-  .mvStatic__ttlWrap {
+  &__ttlWrap {
     position: absolute;
     top: 45%;
     left: 0;
@@ -36,7 +37,7 @@ export default {
     margin: auto;
   }
 
-  .mvStatic__ttl {
+  &__ttl {
     color: #fff;
     font-family: "Libre Baskerville", serif;
     font-size: 9vw;
@@ -44,7 +45,7 @@ export default {
     font-weight: bold;
   }
 
-  .mvStatic__ttlSpan {
+  &__ttlSpan {
     font-family: "Raleway", sans-serif;
     font-size: 5vw;
     font-style: normal;
