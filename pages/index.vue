@@ -9,7 +9,8 @@
       </div>
     </div>
     <div :class="{ hide: isLoading, fadein: !isLoading }">
-      <top-mv ref="mv" />
+      <!-- <top-mv ref="mv" /> -->
+      <top-mv-static />
       <top-about />
       <div class="mt-32 pb-12">
         <top-section
@@ -49,12 +50,14 @@
 import TopMv from "~/components/molecules/TopMv.vue";
 import TopAbout from "~/components/molecules/TopAbout.vue";
 import TopSection from "~/components/molecules/TopSection.vue";
+import TopMvStatic from '../components/molecules/TopMvStatic.vue';
 
 export default {
   components: {
     TopMv,
     TopAbout,
     TopSection,
+    TopMvStatic,
   },
   data() {
     return {
