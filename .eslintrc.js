@@ -1,17 +1,29 @@
 module.exports = {
-  root: true,
-  env: {
-    browser: true,
-    node: true,
-  },
+  plugins: ['eslint-plugin-tsdoc', 'simple-import-sort'],
   extends: [
     '@nuxtjs/eslint-config-typescript',
-    'prettier',
     'prettier/vue',
+    'prettier',
     'plugin:prettier/recommended',
-    'plugin:nuxt/recommended',
   ],
-  plugins: ['prettier'],
-  // add your custom rules here
-  rules: {},
+  rules: {
+    'vue/max-attributes-per-line': 'off',
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'always',
+        },
+      },
+    ],
+    'prettier/prettier': [
+      'error',
+      {
+        semi: false,
+        singleQuote: true,
+      },
+    ],
+    'tsdoc/syntax': 'error',
+    'simple-import-sort/sort': 'error',
+  },
 }
