@@ -7,7 +7,7 @@
       :link="link"
     />
     <nuxt-link :to="link">
-      <div class="-mt-5 overflow-hidden">
+      <div class="-mt-5 md:-mt-10 overflow-hidden">
         <img
           class="img-zoom"
           :src="src"
@@ -15,7 +15,7 @@
       </div>
       <Icon
         name="more"
-        class="mt-3 mx-2"
+        class="mt-3 mx-2 moreIcon"
         :class="type === 'left' ? 'ml-auto' : 'mr-auto'"
       />
     </nuxt-link>
@@ -65,5 +65,11 @@ export default {
 /* copyright入ってるから暫定でzoom */
 .img-zoom {
   transform: scale(1.2);
+}
+@media screen and (min-width: 768px) {
+  .moreIcon {
+    width: 180px;
+    height: 36px;
+  }
 }
 </style>

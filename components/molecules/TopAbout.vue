@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about md:mt-24">
     <h2 class="about__ttl">侍魂とは</h2>
     <p class="about__txt">
       Gran Turismo SPORTの<br>
@@ -57,5 +57,14 @@
 .about__hr {
   border-top-width: 3px;
   border-color: #907b44;
+}
+
+@media screen and (min-width: 768px) {
+  .about__ttl {
+    font-size: 4rem;
+  }
+  .about__txt {
+    font-size: 1.5rem;
+  }
 }
 </style>

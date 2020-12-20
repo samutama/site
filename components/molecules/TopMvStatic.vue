@@ -1,7 +1,7 @@
 <template>
   <div class="mvStatic">
     <div class="mvStatic__imgWrap">
-      <img src="/mv.jpg" class="mvStatic__img img-zoom" alt="mv">
+      <img src="/mv.jpg" class="mvStatic__img img-zoom" alt="mv" />
     </div>
     <div class="mvStatic__ttlWrap">
       <h1 class="mvStatic__ttl">
@@ -14,7 +14,6 @@
 
 <script>
 export default {
-
 }
 </script>
 
@@ -27,6 +26,7 @@ export default {
   }
   &__img {
     height: 100%;
+    width: 100%;
     object-fit: cover;
   }
   &__ttlWrap {
@@ -36,7 +36,6 @@ export default {
     right: 0;
     margin: auto;
   }
-
   &__ttl {
     color: #fff;
     font-family: "Libre Baskerville", serif;
@@ -44,13 +43,23 @@ export default {
     font-style: italic;
     font-weight: bold;
   }
-
   &__ttlSpan {
     font-family: "Raleway", sans-serif;
     font-size: 5vw;
     font-style: normal;
     font-weight: bold;
     display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mvStatic {
+    &__ttlWrap {
+      position: absolute;
+      top: 40%;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
   }
 }
 </style>

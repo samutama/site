@@ -7,13 +7,13 @@
   >
     <div
       class="pt-3 pb-1"
-      :class="type === 'left' ? 'pr-8 pl-4' : 'pr-4 pl-8'"
+      :class="type === 'left' ? 'pr-8 pl-4 md:pr-16 md:pl-8' : 'pr-4 pl-8 md:pr-8 md:pl-16'"
     >
-      <h2 class="text-2xl font-black text-white">
+      <h2 class="text-2xl md:text-4xl font-black text-white">
         {{ textJp }}
       </h2>
       <span
-        class="text-base font-raleway text-white block"
+        class="text-base md:text-lg font-raleway text-white block"
         :class="type === 'left' ? 'text-left' : 'text-right'"
       >
         {{ textEn }}
@@ -107,5 +107,33 @@ export default {
   right: -5%;
   opacity: .5;
   margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .hinomaru-left::after {
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #E92E3D;
+    border: solid 2px #fff;
+    top: 50%;
+    right: -5%;
+    opacity: .5;
+  }
+
+  .hinomaru-right::after {
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #E92E3D;
+    border: solid 2px #fff;
+    top: 50%;
+    left: -5%;
+    opacity: .5;
+  }
 }
 </style>

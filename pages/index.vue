@@ -11,36 +11,42 @@
     <div>
       <!-- <top-mv ref="mv" /> -->
       <top-mv-static />
-      <top-about />
-      <div class="mt-32 pb-12">
-        <top-section
-          type="left"
-          textJp="部員"
-          textEn="Members"
-          src="/members.jpg"
-          link="members"
-        />
-        <top-section
-          type="right"
-          textJp="セッティング"
-          textEn="Setting"
-          src="/setting.jpg"
-          link="setting"
-        />
-        <top-section
-          type="left"
-          textJp="展示"
-          textEn="Gallery"
-          src="/gallery.jpg"
-          link="gallery"
-        />
-        <top-section
-          type="right"
-          textJp="お問い合わせ"
-          textEn="Contact"
-          src="/contact.jpg"
-          link="contact"
-        />
+      <div class="mainContent">
+        <top-about />
+        <div class="mt-32 pb-12">
+          <top-section
+            type="left"
+            textJp="部員"
+            textEn="Members"
+            src="/members.jpg"
+            link="members"
+            class="sectionLeft"
+          />
+          <top-section
+            type="right"
+            textJp="セッティング"
+            textEn="Setting"
+            src="/setting.jpg"
+            link="setting"
+            class="sectionRight"
+          />
+          <top-section
+            type="left"
+            textJp="展示"
+            textEn="Gallery"
+            src="/gallery.jpg"
+            link="gallery"
+            class="sectionLeft"
+          />
+          <top-section
+            type="right"
+            textJp="お問い合わせ"
+            textEn="Contact"
+            src="/contact.jpg"
+            link="contact"
+            class="sectionRight"
+          />
+        </div>
       </div>
     </div>
   </main>
@@ -222,5 +228,20 @@ $speed: 1.5s;
 
 .fadeout {
   animation: fadeout 3s ease 0s 1 forwards;
+}
+
+@media screen and (min-width: 768px) {
+  .mainContent {
+    max-width: 1000px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .sectionLeft {
+    transform:translateX(-5rem);
+  }
+  .sectionRight {
+    transform:translateX(5rem);
+  }
 }
 </style>
