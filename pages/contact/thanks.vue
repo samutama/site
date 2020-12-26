@@ -29,6 +29,9 @@ export default {
 </script>
 
 <style>
+.container {
+  padding: 0;
+}
 .v-application--wrap {
   min-height: 0;
 }

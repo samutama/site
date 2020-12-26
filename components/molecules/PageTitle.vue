@@ -10,7 +10,7 @@
       :type="type"
       :textJp="textJp"
       :textEn="textEn"
-      class="mt-5 mx-5"
+      class="mt-5 mx-5 md:mx-0"
     />
   </div>
 </template>

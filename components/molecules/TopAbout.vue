@@ -2,21 +2,13 @@
   <div class="about md:mt-24">
     <h2 class="about__ttl">侍魂とは</h2>
     <p class="about__txt">
-      Gran Turismo SPORTの<br>
-      ドリフトチームである<br>
+      Gran Turismo SPORTの<br class="md:hidden">ドリフトチームである<br>
       <br>
-      ある陽気な4人の侍が<br>
-      意気投合し、結成<br>
+      ある陽気な4人の侍が<br class="md:hidden">意気投合し、結成<br class="md:hidden">
       <br>
-      いつの間にか仲間は増え<br>
-      大きな集団となった<br>
-      それは<br>
-      共に走り、思いやり<br>
-      高め合った結果に過ぎない<br>
+      いつの間にか仲間は増え<br class="md:hidden">大きな集団となった<br>それは<br class="md:hidden">共に走り、思いやり<br class="md:hidden">高め合った結果に過ぎない<br>
       <br>
-      国際的に広がる<br>
-      侍魂を<br>
-      とくとご覧あれ...<br>
+      国際的に広がる<br class="md:hidden">侍魂を<br class="md:hidden">とくとご覧あれ...<br>
     </p>
     <hr class="about__hr">
   </div>

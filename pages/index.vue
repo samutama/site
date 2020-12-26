@@ -236,7 +236,7 @@ $speed: 1.5s;
     margin: auto;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1160px) {
   .sectionLeft {
     transform:translateX(-5rem);
   }

@@ -24,3 +24,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.container {
+  padding: 0;
+}
+</style>

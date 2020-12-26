@@ -6,7 +6,7 @@
       textEn="Members"
       src="/members.jpg"
     >
-      <div class="flex justify-between flex-wrap">
+      <div class="flex justify-between flex-wrap boxPseudoElement">
         <member-link
           v-for="(member, index) in members"
           v-bind:key="index"
@@ -36,3 +36,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.container {
+  padding: 0;
+}
+.boxPseudoElement::before,
+.boxPseudoElement::after {
+  content: "";
+  display: block;
+  width: 24%;
+  height: 0;
+  order: 1;
+}
+</style>

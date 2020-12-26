@@ -1,6 +1,6 @@
 <template>
   <no-ssr>
-    <div class="container">
+    <div>
       <contents-layout
         type="full"
         textJp="お問い合わせ"
@@ -8,7 +8,7 @@
         src="/contact.jpg"
       >
         <div class="flex justify-between flex-wrap">
-          <v-app>
+          <v-app class="w-full">
             <v-form
               v-model="valid"
               action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScwiDlv_gL0wXmLA0kvbdpXbHqPcEU_JsHKPeXCFzuCVxOFVw/formResponse"
@@ -17,8 +17,8 @@
               <v-container>
                 <iframe name="dummy" style="display:none;"></iframe>
 
-                <v-row>
-                  <v-col cols="12" md="4">
+                <v-row class="md:p-4">
+                  <v-col cols="12">
                     <v-text-field
                       v-model="name"
                       :rules="nameRules"
@@ -28,7 +28,7 @@
                     ></v-text-field>
                   </v-col>
 
-                  <v-col cols="12" md="4">
+                  <v-col cols="12">
                     <v-text-field
                       v-model="email"
                       :rules="emailRules"
@@ -38,7 +38,7 @@
                     ></v-text-field>
                   </v-col>
 
-                  <v-col cols="12" md="4">
+                  <v-col cols="12">
                     <v-textarea
                       v-model="contactDetail"
                       :rules="contactDetailRules"
@@ -49,7 +49,7 @@
                     ></v-textarea>
                   </v-col>
 
-                  <v-col cols="12" md="4" class="text-center">
+                  <v-col cols="12" class="text-center">
                     <v-btn 
                       type="submit"
                       :class="valid ? '' :'pointer-events-none'"

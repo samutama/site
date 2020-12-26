@@ -6,7 +6,7 @@
       :textEn="textEn"
       :src="src"
     />
-    <div class="py-4 px-5">
+    <div class="py-4 px-5 md:px-0">
       <slot />
     </div>
   </div>

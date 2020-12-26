@@ -29,10 +29,10 @@
     <div
       class="pt-3 pb-2 pr-8 pl-4"
     >
-      <h1 class="text-2xl font-black text-white">
+      <h1 class="text-2xl md:text-4xl font-black text-white">
         {{ textJp }}
       </h1>
-      <span class="text-base font-raleway text-white ">
+      <span class="text-base md:text-lg font-raleway text-white ">
         {{ textEn }}
       </span>
     </div>
