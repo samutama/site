@@ -1,10 +1,10 @@
 <template>
-  <header v-if="this.$route.name === 'index'" class="header is-inactive" :class="{'is-active': scrollY > 600}">
+  <header v-if="this.$route.name === 'index'" class="header" :class="{'is-active': scrollY > 600}">
     <nuxt-link to="/" class="inline-block">
       <Icon name="logo" class="header__logo" />
     </nuxt-link>
   </header>
-  <header v-else class="header">
+  <header v-else class="header is-active">
     <nuxt-link to="/" class="inline-block">
       <Icon name="logo" class="header__logo" />
     </nuxt-link>
@@ -42,22 +42,18 @@ export default {
   width: 100%;
   z-index: 99999;
   background: linear-gradient(to bottom, #000000 0%, transparent 100%);
+  transition: all 1s;
+  opacity: 0;
 }
 .header__logo {
   width: auto;
   height: 60px;
   padding: 0.8rem;
 }
+.header.is-active {
+  opacity: 1;
+}
 @media screen and (min-width: 768px) {
-  .header {
-    transition: all 1s;
-  }
-  .header.is-active {
-    opacity: 1;
-  }
-  .header.is-inactive {
-    opacity: 0;
-  }
   .header__logo {
     height: 120px;
     padding: 2rem;

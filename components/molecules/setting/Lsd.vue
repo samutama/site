@@ -41,17 +41,17 @@
 export default {
   props: {
     initialTorque: {
-      type: String,
+      type: Object,
       default: null,
       required: true
     },
     whenAcceleration: {
-      type: String,
+      type: Object,
       default: null,
       required: true
     },
     whenDeceleration: {
-      type: String,
+      type: Object,
       default: null,
       required: true
     },
