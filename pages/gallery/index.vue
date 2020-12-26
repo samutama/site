@@ -1,6 +1,6 @@
 <template>
   <no-ssr>
-    <div>
+    <div class="container">
       <contents-layout
         type="full"
         textJp="展示"
