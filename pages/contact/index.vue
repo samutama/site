@@ -1,6 +1,6 @@
 <template>
   <no-ssr>
-    <div class="container p-0">
+    <div class="container topWrap">
       <contents-layout
         type="full"
         textJp="お問い合わせ"
@@ -91,7 +91,11 @@ export default {
 </script>
 
 <style>
-.v-application--wrap {
-  min-height: 0!importannt;
+.container.topWrap {
+  padding: 0;
+}
+
+.container .v-application--wrap {
+  min-height: 0;
 }
 </style>
