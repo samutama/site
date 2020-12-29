@@ -1,5 +1,5 @@
 <template>
-  <no-ssr>
+  <client-only>
     <div class="container">
       <contents-layout
         type="full"
@@ -10,7 +10,7 @@
         <setting-list />
       </contents-layout>
     </div>
-  </no-ssr>
+  </client-only>
 </template>
 
 <script>
