@@ -3,7 +3,7 @@
         "id": 1,
         "num": "01",
         "name": "masami",
-        "psn_id": "masami321-SMRI01",
+        "psn_id": "SMRI-masami321",
         "file": {
             "type": "img",
             "src" : "/members_mv/masami_mv.jpg"
@@ -12,7 +12,8 @@
             "呼び名": "まさみ まちゃみ 団長",
             "生年月日": "1972/10/28",
             "出身": "長野県",
-            "ポジション": "リーダー"
+            "ポジション": "リーダー",
+            "入団日": "創設者"
         }
     },
     {
@@ -25,7 +26,8 @@
             "src" : "/members_mv/tk_mv.jpg"
         },
         "contents": {
-            "呼び名": "TK"
+            "呼び名": "TK",
+            "入団日": "創設メンバー"
         }
     },
     {
@@ -38,7 +40,8 @@
             "src" : "/members_mv/ikupio_mv.jpg"
         },
         "contents": {
-            "呼び名": "いくぴお"
+            "呼び名": "いくぴお",
+            "入団日": "創設メンバー"
         }
     },
     {
@@ -47,53 +50,58 @@
         "name": "srctom",
         "psn_id": "srctom-SMRI04",
         "contents": {
-            "呼び名": "さくとむ"
+            "呼び名": "さくとむ",
+            "入団日": "創設メンバー"
         }
     },
     {
         "id": 5,
         "num": "05",
         "name": "mozuchiki",
-        "psn_id": "mozuchiki_SMRI05",
+        "psn_id": "SMRI-mozuchiki",
         "file": {
             "type": "img",
             "src" : "/members_mv/mozu_mv.jpg"
         },
         "contents": {
             "呼び名": "もず もずたまぁ もずりんたまぁ",
-            "出身": "福岡県"
+            "出身": "福岡県",
+            "入団日": "創設メンバー"
         }
     },
     {
         "id": 6,
         "num": "07",
         "name": "taka",
-        "psn_id": "taka_SMRI_07",
+        "psn_id": "SMRI-taka",
         "contents": {
-            "呼び名": "タカ"
+            "呼び名": "タカ",
+            "入団日": "創設メンバー"
         }
     },
     {
         "id": 7,
         "num": "08",
         "name": "shian",
-        "psn_id": "shian-SMRI08",
+        "psn_id": "SMRI-Cyan",
         "contents": {
-            "呼び名": "しあんちゃん"
+            "呼び名": "しあんちゃん",
+            "入団日": "創設メンバー"
         }
     },
     {
         "id": 8,
         "num": "09",
         "name": "nagodom",
-        "psn_id": "nagodom-SMRI09",
+        "psn_id": "SMRI-GD-DKNchaN",
         "file": {
             "type": "img",
             "src" : "/members_mv/nago_mv.jpg"
         },
         "contents": {
-            "呼び名": "なご なごどむ",
-            "出身": "北海道"
+            "呼び名": "なご なごどむ ドキンちゃん",
+            "出身": "北海道",
+            "入団日": "創設メンバー"
         }
     },
     {
@@ -102,20 +110,22 @@
         "name": "ykr",
         "psn_id": "ykr060",
         "contents": {
-            "呼び名": "YKR"
+            "呼び名": "YKR",
+            "入団日": "創設メンバー"
         }
     },
     {
         "id": 10,
         "num": "12",
         "name": "sui",
-        "psn_id": "su-i_SMRI_12",
+        "psn_id": "SMRI-sui",
         "file": {
             "type": "img",
             "src" : "/members_mv/sui_mv.jpg"
         },
         "contents": {
-            "呼び名": "すい 粋"
+            "呼び名": "すい 粋 粋様",
+            "入団日": "2019.1.6"
         }
     },
     {
@@ -129,46 +139,40 @@
         },
         "contents": {
             "呼び名": "DJ ディージェー",
-            "出身": "フランス"
+            "出身": "フランス",
+            "入団日": "2019.1.7"
         }
     },
     {
         "id": 12,
         "num": "14",
         "name": "sant",
-        "psn_id": "sant_SMRI14",
+        "psn_id": "SMRI-MiyatA",
         "file": {
             "type": "img",
             "src" : "/members_mv/sant_mv.jpg"
         },
         "contents": {
             "呼び名": "sant サント",
-            "出身": "フランス"
+            "出身": "フランス",
+            "入団日": "2019.1.7"
         }
     },
     {
         "id": 13,
-        "num": "16",
+        "num": "15",
         "name": "lucky",
-        "psn_id": "lucky-16_SMRI",
+        "psn_id": "m1t4ra5hi_s15",
         "contents": {
-            "呼び名": "ラッキー"
-        }
-    },
-    {
-        "id": 14,
-        "num": "17",
-        "name": "tatchan",
-        "psn_id": "Tatchan1110",
-        "contents": {
-            "呼び名": "たっちゃん"
+            "呼び名": "ラッキー",
+            "入団日": "2019.1.12"
         }
     },
     {
         "id": 15,
         "num": "18",
         "name": "cochumo",
-        "psn_id": "COCHUMO_HONEY-SP",
+        "psn_id": "SMRI-cochumo",
         "file": {
             "type": "img",
             "src" : "/members_mv/cochumo_mv.jpg"
@@ -176,7 +180,8 @@
         "contents": {
             "呼び名": "こちゅ こちゅも 社長",
             "出身": "岐阜県",
-            "グランツーリスモ歴": "18年ぐらい"
+            "グランツーリスモ歴": "18年ぐらい",
+            "入団日": "2019.2.10"
         }
     },
     {
@@ -186,16 +191,18 @@
         "psn_id": "SM_RIsy-q_",
         "contents": {
             "呼び名": "しょーと",
-            "出身": "北海道"
+            "出身": "北海道",
+            "入団日": "2019.2.17"
         }
     },
     {
         "id": 17,
         "num": "22",
         "name": "ami",
-        "psn_id": "RicakAm_SMRI22",
+        "psn_id": "SMRI-Ami",
         "contents": {
-            "呼び名": "あみちゃん"
+            "呼び名": "あみちゃん",
+            "入団日": "2019.7.10"
         }
     },
     {
@@ -204,18 +211,20 @@
         "name": "milledy",
         "psn_id": "Milledy-SMRI23",
         "contents": {
-            "呼び名": "ミレディー"
+            "呼び名": "ミレディー",
+            "入団日": "2019.8.2"
         }
     },
     {
         "id": 19,
         "num": "24",
         "name": "shinotch",
-        "psn_id": "Shinotch3",
+        "psn_id": "Shinotch3-SMRI24",
         "contents": {
             "呼び名": "しのっち",
             "出身": "北海道",
-            "ひと言": "Do you like SUSHI??"
+            "ひと言": "Do you like SUSHI??",
+            "入団日": "2019.8.2"
         }
     },
     {
@@ -224,36 +233,111 @@
         "name": "satoshi",
         "psn_id": "satoshi00_SMRI25",
         "contents": {
-            "呼び名": "さとし"
+            "呼び名": "さとし",
+            "入団日": "2019.8.31"
         }
     },
     {
         "id": 21,
         "num": "26",
-        "name": "ryoma",
-        "psn_id": "RyouqN-SMRI26",
+        "name": "ryo",
+        "psn_id": "SMRI-RyouqN",
         "contents": {
             "呼び名": "りょーま りょま",
             "生年月日": "2000/12/29",
-            "出身": "愛知県"
+            "出身": "愛知県",
+            "入団日": "2019.10.21"
         }
     },
     {
         "id": 22,
         "num": "27",
         "name": "houou",
-        "psn_id": "H-0u0-U_SMRI27",
+        "psn_id": "SMRI-404notfound",
         "contents": {
-            "呼び名": "鳳凰"
+            "呼び名": "鳳凰",
+            "入団日": "2020.2.20"
         }
     },
     {
         "id": 23,
-        "num": "28",
-        "name": "marrbo",
-        "psn_id": "marrbo_SMRI28",
+        "num": "29",
+        "name": "harucchi",
+        "psn_id": "SMRI-Xa",
         "contents": {
-            "呼び名": "まぼ まぼたまぁ まぼりんたまぁ"
+            "呼び名": "はるまき はるっち",
+            "入団日": "2020.6.6"
+        }
+    },
+    {
+        "id": 24,
+        "num": "30",
+        "name": "sinigami",
+        "psn_id": "SMRI-SINIGAMI",
+        "contents": {
+            "呼び名": "がみちゃん",
+            "入団日": "2020.6.9"
+        }
+    },
+    {
+        "id": 25,
+        "num": "31",
+        "name": "mashal",
+        "psn_id": "SMRI-Mashal",
+        "contents": {
+            "呼び名": "マーシャル",
+            "入団日": "2020.9.19"
+        }
+    },
+    {
+        "id": 26,
+        "num": "32",
+        "name": "asuka",
+        "psn_id": "SMRI-SuperMan",
+        "contents": {
+            "呼び名": "あすか スーパーマン",
+            "入団日": "2020.9.22"
+        }
+    },
+    {
+        "id": 27,
+        "num": "33",
+        "name": "hiro",
+        "psn_id": "SMRI-Hiro",
+        "contents": {
+            "呼び名": "ひろ ひろさん",
+            "入団日": "2020.9.30"
+        }
+    },
+    {
+        "id": 28,
+        "num": "34",
+        "name": "kantyou",
+        "psn_id": "SMRI-kantyou",
+        "contents": {
+            "呼び名": "館長 かんちょー",
+            "入団日": "2020.12.28"
+        }
+    },
+    {
+        "id": 29,
+        "num": "35",
+        "name": "fuga",
+        "psn_id": "REAL_fuga",
+        "contents": {
+            "呼び名": "フーガ フーガさん",
+            "ひと言": "リアルはフーガじゃないよ",
+            "入団日": "2020.12.28"
+        }
+    },
+    {
+        "id": 30,
+        "num": "36",
+        "name": "komi",
+        "psn_id": ".komi_az214",
+        "contents": {
+            "呼び名": "こみ こみさん",
+            "入団日": "2020.12.28"
         }
     }
 ]
