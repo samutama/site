@@ -82,6 +82,7 @@ export default {
     }
   },
   generate: {
+    // TODO: 動的ルートを自動化する
     routes: [
       '/members/1',
       '/members/2',
@@ -106,6 +107,13 @@ export default {
       '/members/21',
       '/members/22',
       '/members/23',
+      '/members/24',
+      '/members/25',
+      '/members/26',
+      '/members/27',
+      '/members/28',
+      '/members/29',
+      '/members/30',
     ]
   }
 }
