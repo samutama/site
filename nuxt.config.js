@@ -78,6 +78,7 @@ export default {
     // Doc: https://github.com/nuxt-community/tailwindcss-module
     '@nuxtjs/tailwindcss',
     '@nuxtjs/vuetify',
+    '@nuxtjs/google-analytics'
   ],
   /*
   ** Nuxt.js modules
@@ -115,6 +116,9 @@ export default {
     theme: {
       dark: true,
     }
+  },
+  googleAnalytics: {
+    id: 'G-B3NRBBWXZM'
   },
   generate: {
     // TODO: 動的ルートを自動化する
