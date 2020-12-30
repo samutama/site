@@ -1,3 +1,20 @@
+/**
+ * 一般
+ */
+const siteNameEn = 'Samurai Tamashi Official Site'
+const siteNameJa = '侍魂オフィシャルサイト'
+const siteName = `${siteNameJa}｜${siteNameEn}`
+const siteUrl = 'https://samurai-tamashi.tk/' // スラあり
+const baseUrl = 'https://samurai-tamashi.tk' // スラなし
+const domain = 'samurai-tamashi.tk' // ドメイン
+
+/**
+ * head周り
+ */
+const title = siteName
+const titleTemplate = `｜${title}`
+const description = 'グランツーリスモのチーム「侍魂」のオフィシャルサイト'
+const keywords = 'グランツーリスモ,侍魂,ドリフト'
 
 export default {
   mode: 'universal',
@@ -5,16 +22,34 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
-    htmlAttrs: {
-      lang: 'ja'
-    },
+    title,
+    titleTemplate: '%s' + titleTemplate,
     meta: [
       { charset: 'utf-8' },
+      { 'http-equiv': 'x-ua-compatible', content: 'ie=edge' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      {
+        name: 'format-detection',
+        content: 'telephone=no, email=no, address=no',
+      },
+      { hid: 'description', name: 'description', content: description },
+      { hid: 'keywords', name: 'keywords', content: keywords },
+      { hid: 'og:site_name', property: 'og:site_name', content: siteName },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: siteUrl },
+      { hid: 'og:title', property: 'og:title', content: title },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: description,
+      },
+      { hid: 'og:image', property: 'og:image', content: '/static/mv.jpg' },
+    ],
+    script: [
+      { src: '//polyfill.io/v2/polyfill.min.js?features=IntersectionObserver' },
     ],
     link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;700&display=swap' }
     ]
   },
