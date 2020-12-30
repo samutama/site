@@ -24,7 +24,7 @@ export default {
   },
   head() {
     return {
-      title: 'セッティング詳細',
+      title: 'P1 GTR',
     }
   },
 }

@@ -35,7 +35,7 @@ export default {
   },
   head() {
     return {
-      title: 'メンバー詳細',
+      title: this.members[this.id].psn_id,
     }
   },
 }
