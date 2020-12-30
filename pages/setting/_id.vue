@@ -22,6 +22,11 @@ export default {
     ContentsLayout,
     SettingList,
   },
+  head() {
+    return {
+      title: 'セッティング詳細',
+    }
+  },
 }
 </script>
 

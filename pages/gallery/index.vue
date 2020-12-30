@@ -30,10 +30,10 @@ export default {
   components: {
     ContentsLayout,
   },
-  data() {
+  head() {
     return {
-
+      title: 'ギャラリー',
     }
-  }
+  },
 }
 </script>

@@ -37,11 +37,11 @@ export default {
   components: {
     ContentsLayout,
   },
-  data() {
+  head() {
     return {
-
+      title: 'セッティング',
     }
-  }
+  },
 }
 </script>
 

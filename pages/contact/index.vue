@@ -86,7 +86,12 @@ export default {
       v => /.+@.+/.test(v) || "メールアドレスの形式で入力してください"
     ],
     contactDetailRules: [v => !!v || "お問い合わせ内容は必須です"],
-  })
+  }),
+  head() {
+    return {
+      title: 'コンタクト',
+    }
+  },
 };
 </script>
 

@@ -24,7 +24,12 @@ export default {
   },
   data() {
     return {};
-  }
+  },
+  head() {
+    return {
+      title: 'サンクスページ',
+    }
+  },
 };
 </script>
 

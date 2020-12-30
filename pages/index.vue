@@ -70,6 +70,11 @@ export default {
       // isLoading: true
     };
   },
+  head() {
+    return {
+      titleTemplate: null,
+    }
+  },
   mounted() {
     // document.addEventListener("load", () => {
     //   this.isLoading = false;

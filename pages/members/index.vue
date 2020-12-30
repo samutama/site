@@ -33,7 +33,12 @@ export default {
     return {
       members: Members,
     }
-  }
+  },
+  head() {
+    return {
+      title: 'メンバー',
+    }
+  },
 }
 </script>
 
